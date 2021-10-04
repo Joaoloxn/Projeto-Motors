@@ -1,0 +1,47 @@
+
+body .pro {
+    display: flex;
+  }
+  .check {
+    width: 5000px;
+    padding: 50px 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: static;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+  }
+  .title-login {
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: rgb(255, 166, 0);
+  }
+  
+input, select{
+  width: 500px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+button {
+  width: 500px;
+  height: 40px;
+  background: transparent;
+  padding: 25px 50px;
+  border-radius: 20px;
+  color: orange;
+  text-transform: uppercase;
+  border: 2px solid orange;
+  cursor: pointer;
+  transition: ease-in-out 0.25s;
+}
+
+button span {
+  margin-bottom: auto;
+}
+
+
+button:hover {
+  background: rgba(228, 148, 0, 0.932);
+}
